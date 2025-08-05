@@ -11,5 +11,3 @@ hooks:
       timeout: 300
       runas: root
       #commit
-      #commit2
-#commit3
