@@ -5,4 +5,4 @@ set -e
 docker pull lotus201317/simple-python-app:latest
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 lotus201317/simple-python-app:latest
+docker run -d -p 5000:5000 lotus201317/simple-python-app
