@@ -1,8 +1,11 @@
 #!/bin/bash
 set -e
-
-# Stop the running container (if any)
+# Get the container ID(s) of running containers
 containerID=$(docker ps -q)
-docker rm -f $containerID
-#commit
-#commit
+# Stop the running container (if any)
+if [ -n "$containerID" ]; then
+    echo "Stopping and removing container(s): $containerID"
+    docker rm -f $containerID
+else
+    echo "No running containers found."
+fi
