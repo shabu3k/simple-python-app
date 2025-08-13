@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-
 # Pull the Docker image from Docker Hub
 docker pull lotus201317/sample-python-flask-service:latest
 # Run the Docker image as a container
