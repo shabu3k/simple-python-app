@@ -6,4 +6,3 @@ docker pull lotus201317/sample-python-flask-service:latest
 docker run -d -p 5000:5000 lotus201317/sample-python-flask-service:latest
 #commit
 #commit
-#commit
