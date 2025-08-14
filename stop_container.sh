@@ -8,6 +8,5 @@ set -e
 #else
   #  echo "No running containers found."
 #fi
-
 # Stop the running container (if any)
 echo "Hi"
