@@ -10,6 +10,4 @@ set -e
 #fi
 
 # Stop the running container (if any)
-
-
 echo "Hi"
